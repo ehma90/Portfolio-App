@@ -1,0 +1,17 @@
+.workSection{
+    background-color: #fff3b0;
+    padding: 100px 0;
+    color: #111d13;
+}
+
+.work-header{
+    text-transform: uppercase;
+    margin: 0 200px;
+}
+
+.works{
+    border-left: 1px solid;
+}
+
+/* Work list style */
+
