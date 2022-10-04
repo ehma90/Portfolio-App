@@ -10,7 +10,7 @@ function Resume() {
         <p className="font-medium text-lg md:text-2xl">
           Software Developer & Content Writer
         </p>
-        <div className="shadow-lg shadow-green-900/50 mx-auto absolute w-[185px] border border-green-900"></div>
+        <div className="shadow-lg shadow-green-900/50 mx-auto absolute w-[200px] md:w-[285px] border border-green-900"></div>
       </div>
     </div>
   );

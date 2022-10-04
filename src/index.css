@@ -16,3 +16,18 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+button{
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #052707;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button:hover{
+    border: 1px solid #052707;
+    background-color: #fff;
+    color: #052707;
+}
