@@ -114,7 +114,7 @@ function Resume() {
             <li>
               Telegram:{" "}
               <span>
-                <a href="https://t.me/ehma90">@ehmaessien</a>
+                <a href="https://t.me/ehma90">@ehma90</a>
               </span>
             </li>
           </ul>
