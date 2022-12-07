@@ -1,0 +1,42 @@
+.card{
+    max-width: 453px;
+    width: 100%;
+    border: 1px solid #14532d;
+    border-radius: 8px;
+}
+
+.card-img{
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.card-header{
+    cursor: pointer;
+    padding: 0 14px;
+}
+
+.card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid #14532d;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 14px;
+    transition: background-color 500ms color 300ms;
+}
+
+.card-btn:hover{
+    background-color: #14532d;
+    color: #fff;
+}
+
+.card-btn:active{
+    background-color: #14532d;
+    color: #fff;
+}
+
+.card-btn:focus{
+    background-color: #14532d;
+    color: #fff;
+}
