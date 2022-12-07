@@ -1,7 +1,7 @@
 .goBack {
   cursor: pointer;
   display: flex;
-  align-content: center;
+  align-items: center;
   margin: 0 0 40px 119px;
 }
 

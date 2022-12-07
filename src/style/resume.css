@@ -5,6 +5,10 @@ ul li{
     margin: 0 22px;
 }
 
+ul span{
+    text-decoration: underline;
+}
+
 ul .title{
     margin: 5px 0;
     font-size: 16px;
@@ -24,20 +28,21 @@ ul .title{
     margin: 0 25px;
 }
 
-.experience-date{
+
+.resume-date{
     font-weight: 300;
     display: block;
     color: rgba(0, 0, 0, 0.5);
     text-align: end;
 }
 
-.experience-header{
+.resume-header{
     display: flex;
     justify-content: center;
     margin: 0 0 10px 0px;
     color: #14532d;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .FED{
@@ -48,23 +53,44 @@ ul .title{
     font-weight: 400;
 }
 
+.education{
+    display: flex;
+    justify-content: center;
+    gap: 0 15px;
+    margin: 25px 0 60px 0;
+}
+
+.stack, .contact{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 60px 0;
+ }
+
+ .contact ul{
+     margin-bottom: 50px;
+ }
+
 @media (max-width: 768px){
     .experience{
         display: block
     }
 
-    .experience-date{
+    .resume-date{
     font-size: 15px;
         text-align: start;
     }
 
-    .experience-header{
+    .resume-header{
         display: block;
         margin: 0;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .resume-list{
         margin: 0;
+    }
+
+    .education, .stack{
+        display: block;
     }
 }
