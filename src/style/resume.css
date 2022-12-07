@@ -2,6 +2,7 @@ ul li{
     list-style-type: disc;
     font-size: 15px;
     font-weight: 300;
+    margin: 0 22px;
 }
 
 ul .title{
