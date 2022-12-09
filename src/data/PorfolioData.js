@@ -40,7 +40,7 @@ const PorfolioData = [
         image: githubFinder,
         header: 'Github Finder App',
         text: 'Created with github API to search for github users and display a few infomations about a particular user. Built with React.js, TailwindCss, and DaisyUI',
-        Link: 'https://github.com/ehma90/Github-Finder-App',
+        link: 'https://github.com/ehma90/Github-Finder-App',
         deploy: 'https://githubfinder-app-two.vercel.app/'
     },
     {
@@ -48,7 +48,7 @@ const PorfolioData = [
         image: darkMode,
         header: 'Theme Mode',
         text: 'Built a form validation(Demo) to practice the use local storage hook from react.js to save a theme-mode in the browswer whenever the page reloads. Built with React,js',
-        Link: 'https://github.com/ehma90/Dark-Mode',
+        link: 'https://github.com/ehma90/Dark-Mode',
         deploy: 'https://dark-mode-co5o2sjhp-ehma90.vercel.app/'
     },
     {
@@ -56,7 +56,7 @@ const PorfolioData = [
         image: movieBookings,
         header: 'Movie Seat Bookings',
         text: 'Built this Side Project to enhace my skills in javascript. Built with Html, Css3, and JavaScript',
-        Link: 'https://github.com/ehma90/movie-seat-bookings',
+        link: 'https://github.com/ehma90/movie-seat-bookings',
         deploy: 'https://ehma90.github.io/movie-seat-bookings/'
     },
     {
@@ -64,7 +64,7 @@ const PorfolioData = [
         image: formValidation,
         header: 'Form Validation',
         text: 'Built this project to check every field validation when filling a form. Built with Html, Css3, and JavaScript',
-        Link: 'https://github.com/ehma90/form-validation',
+        link: 'https://github.com/ehma90/form-validation',
         deploy: 'https://ehma90.github.io/form-validation/'
     },
     {
@@ -72,7 +72,7 @@ const PorfolioData = [
         image: infiniteScroll,
         header: 'Infinte Scroll Post',
         text: 'Code Alone to create a functional scroll post that reloads when the scroll hit some certain heights. Built with Html, Css3, and JavaScript',
-        Link: 'https://github.com/ehma90/inifinite-scroll-post',
+        link: 'https://github.com/ehma90/inifinite-scroll-post',
         deploy: 'https://ehma90.github.io/inifinite-scroll-post/'
     },
     {
@@ -80,7 +80,7 @@ const PorfolioData = [
         image: menuSlide,
         header: 'Menu Slide',
         text: 'Built this side project that has modal and menu functionality. Built with Html, Css3, and JavaScript',
-        Link: 'https://github.com/ehma90/menu-slider-modal',
+        link: 'https://github.com/ehma90/menu-slider-modal',
         deploy: 'https://ehma90.github.io/menu-slider-modal/'
     },
     {
@@ -88,7 +88,7 @@ const PorfolioData = [
         image: relaxerApp,
         header: 'Relaxer App',
         text: 'This app monitors your Breaths, Built with Html, Css3, and JavaScript',
-        Link: 'https://github.com/ehma90/Relaxer-App',
+        link: 'https://github.com/ehma90/Relaxer-App',
         deploy: 'https://ehma90.github.io/Relaxer-App/'
     },
 ]

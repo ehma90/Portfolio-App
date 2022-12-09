@@ -11,6 +11,7 @@ import {useState} from 'react'
 function App() {
   const [data] = useState(PorfolioData)
 
+  
   return (
     <Router>
       <div className="container mx-auto px-10 h-screen">
