@@ -1,10 +1,3 @@
-.goBack {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  margin: 0 0 40px 119px;
-}
-
 .project-container {
   display: flex;
   flex-direction: column;
@@ -51,11 +44,6 @@
 }
 
 @media (max-width: 768px) {
-  .goBack {
-    display: flex;
-    align-items: center;
-    margin: 0;
-  }
 
   .project-header {
     font-size: 24px;

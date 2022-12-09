@@ -8,9 +8,6 @@ function Project({ PortData }) {
   const { header } = useParams();
   return (
     <div className="container mx-auto">
-        <Link to='/projects' className="goBack">
-            <TbArrowNarrowLeft className="mr-2"/> Go Back
-        </Link>
       {PortData.filter((card) => card.header === header).map((card) => (
         <div key={card.id} className="project-container">
           <div className="project-img">
