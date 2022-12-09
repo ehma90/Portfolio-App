@@ -1,8 +1,9 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import useLocalStorage from 'use-local-storage'
+// import useLocalStorage from 'use-local-storage'
 
 function Navbar() {
-  const [border, setborder] = useLocalStorage('home')
+  const [border, setborder] = useState('home')
 
   return (
     <div className="container my-6">
