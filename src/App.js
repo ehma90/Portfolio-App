@@ -5,12 +5,14 @@ import Projects from "./Component/pages/Projects.jsx";
 import Project from "./Component/pages/Project.jsx";
 import Resume from "./Component/pages/Resume.jsx";
 import PorfolioData  from "./data/PorfolioData";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {useState} from 'react'
 
 function App() {
   const [data] = useState(PorfolioData)
-
+  AOS.init();
   
   return (
     <Router>

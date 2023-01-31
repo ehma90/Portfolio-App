@@ -96,7 +96,7 @@ const PorfolioData = [
         id: 11,
         image: shoppingCart,
         header: 'Advance Shopping Cart',
-        text: 'This app monitors your Breaths, Built with Html, Css3, and JavaScript',
+        text: 'Apparently, the modern e-commerce web application has the functionality to save, add, remove, and delete items, so this web application is about that. This ideal shopping cart shows the list of items in a store, with functionalities like adding, removing, saving, and deleting items from a cart.',
         link: 'https://github.com/ehma90/Advance-shopping-cart',
         deploy: 'https://shopping-cart-eight-beryl.vercel.app/'
     },

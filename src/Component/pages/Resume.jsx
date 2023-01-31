@@ -11,12 +11,18 @@ function Resume() {
         <div className="shadow-lg shadow-green-900/50 mx-auto absolute w-[148px] md:w-[221px] border border-green-900"></div>
       </div>
 
-      <div className="container">
+      <div
+        className="container"
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
         <h2 className="resume-header">Experience</h2>
         <div className="experience">
           <div className="resume-list">
             <label className="resume-date">Oct 2022 - Present</label>
-            <label className="resume-date">Full-time</label>
+            <label className="resume-date">(Full-time)</label>
           </div>
           <div className="resume-lists">
             <label className="FED">
@@ -42,7 +48,7 @@ function Resume() {
         <div className="experience">
           <div className="resume-list">
             <label className="resume-date">Feb 2022 - Jun 2022</label>
-            <label className="resume-date">Full-time</label>
+            <label className="resume-date">(Full-time)</label>
           </div>
           <div className="resume-lists">
             <label className="FED">

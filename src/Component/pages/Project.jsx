@@ -18,7 +18,7 @@ function Project({ PortData }) {
 
           <p className="project-text">{card.text}</p>
 
-          <div className="flex">
+          <div className="flex justify-between md:w-[960px] md:mx-auto">
             <a href={card.link} className="toGithub">
               <AiFillGithub className="mr-2" />Github link
             </a>
