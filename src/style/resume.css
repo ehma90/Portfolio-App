@@ -17,13 +17,14 @@ ul .title{
 
 .experience{
     display: flex;
-    justify-content: center;
     gap: 0 15px;
     margin: 25px 0 60px 0;
 }
 
 .resume-list{
-    max-width: 800px;
+    width: 20%;
+}
+.resume-lists{
     width: 100%;
     margin: 0 25px;
 }
@@ -33,12 +34,9 @@ ul .title{
     font-weight: 300;
     display: block;
     color: rgba(0, 0, 0, 0.5);
-    text-align: end;
 }
 
 .resume-header{
-    display: flex;
-    justify-content: center;
     margin: 0 0 10px 0px;
     color: #14532d;
     font-weight: 700;
@@ -54,21 +52,14 @@ ul .title{
 }
 
 .education{
-    display: flex;
-    justify-content: center;
     gap: 0 15px;
     margin: 25px 0 60px 0;
 }
 
 .stack, .contact{
-    display: flex;
-    justify-content: center;
     margin: 25px 0 60px 0;
  }
 
- .contact ul{
-     margin-bottom: 50px;
- }
 
 @media (max-width: 768px){
     .experience{

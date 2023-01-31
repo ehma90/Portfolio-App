@@ -11,14 +11,14 @@ function Resume() {
         <div className="shadow-lg shadow-green-900/50 mx-auto absolute w-[148px] md:w-[221px] border border-green-900"></div>
       </div>
 
-      <div className="container mx-auto">
+      <div className="container">
         <h2 className="resume-header">Experience</h2>
         <div className="experience">
           <div className="resume-list">
             <label className="resume-date">Oct 2022 - Present</label>
             <label className="resume-date">Full-time</label>
           </div>
-          <div className="resume-list">
+          <div className="resume-lists">
             <label className="FED">
               Front-end Developer{" "}
               <span>at Rareket Technology Solution (Lagos, Nigeria)</span>{" "}
@@ -44,7 +44,7 @@ function Resume() {
             <label className="resume-date">Feb 2022 - Jun 2022</label>
             <label className="resume-date">Full-time</label>
           </div>
-          <div className="resume-list">
+          <div className="resume-lists">
             <label className="FED">
               Front-end Developer <span>at Libre Defi (Ontario, Canada)</span>{" "}
             </label>
@@ -86,7 +86,7 @@ function Resume() {
 
         <h2 className="resume-header">Contact Information</h2>
         <div className="contact">
-          <ul>
+          <ul className="pb-6">
             <li>
               Email:{" "}
               <span>

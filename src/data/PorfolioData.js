@@ -8,6 +8,7 @@ import movieBookings from '../Component/assets/movie-bookings.png'
 import infiniteScroll from '../Component/assets/infinite-scroll.png'
 import menuSlide from '../Component/assets/menu-slide.png'
 import relaxerApp from '../Component/assets/relaxer-app.png'
+import shoppingCart from "../Component/assets/shoppingCart.png"
 
 
 const PorfolioData = [
@@ -90,6 +91,14 @@ const PorfolioData = [
         text: 'This app monitors your Breaths, Built with Html, Css3, and JavaScript',
         link: 'https://github.com/ehma90/Relaxer-App',
         deploy: 'https://ehma90.github.io/Relaxer-App/'
+    },
+    {
+        id: 11,
+        image: shoppingCart,
+        header: 'Advance Shopping Cart',
+        text: 'This app monitors your Breaths, Built with Html, Css3, and JavaScript',
+        link: 'https://github.com/ehma90/Advance-shopping-cart',
+        deploy: 'https://shopping-cart-eight-beryl.vercel.app/'
     },
 ]
 
