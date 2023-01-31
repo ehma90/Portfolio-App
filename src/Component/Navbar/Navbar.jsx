@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <div className="container my-6">
-      <nav className=" flex justify-end  md:justify-end gap-x-8">
+      <nav className=" flex justify-center  md:justify-end gap-x-8">
         <NavLink to="/">
           <p className={splitLocation[1] === '' ? 'text-lg md:text-xl text-green-900 underline decoration-1' : 'text-lg md:text-xl'} >
             Home

@@ -88,7 +88,7 @@ const PorfolioData = [
         id: 10,
         image: relaxerApp,
         header: 'Relaxer App',
-        text: 'This app monitors your Breaths, Built with Html, Css3, and JavaScript',
+        text: 'This application aims at relaxing your breathing interval, some functionalities are breathing in, holding, and breathing out within a 7.5 seconds interval. This project was built with HTML5, CSS3, and Vanilla JavaScript.',
         link: 'https://github.com/ehma90/Relaxer-App',
         deploy: 'https://ehma90.github.io/Relaxer-App/'
     },

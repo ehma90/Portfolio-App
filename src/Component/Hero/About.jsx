@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       className="mt-[150px] mb-[100px] text-md md:text-lg"
-      data-aos="fade-down"
+      data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="1000"
