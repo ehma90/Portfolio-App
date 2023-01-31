@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams} from "react-router-dom";
 import { AiFillGithub } from "react-icons/ai";
 import {TbArrowNarrowLeft} from 'react-icons/tb'
 import {BsLink45Deg} from 'react-icons/bs'

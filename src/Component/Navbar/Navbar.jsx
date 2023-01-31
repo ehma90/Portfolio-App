@@ -1,11 +1,7 @@
-import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import {useLocation } from 'react-router-dom'
 
 function Navbar() {
-
-
-
   const router = useLocation()
   const {pathname} = router;
   const splitLocation = pathname.split("/");

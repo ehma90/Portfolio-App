@@ -16,7 +16,7 @@ const PorfolioData = [
         id: 1,
         image: universityWebsite,
         header: 'Univesity website',
-        text: 'A university website(Demo), that shows courses offered university. Built using HTML, Css3, Javascript and PHP ',
+        text: 'A university website(Demo), that shows courses offered by this ideal university. Built using HTML, Css3, Javascript and PHP ',
         link: 'https://github.com/ehma90/project-tutorial',
         deploy: 'https://ehma90.github.io/project-tutorial/'
     },
@@ -32,7 +32,7 @@ const PorfolioData = [
         id: 3,
         image: brandWebsite,
         header: 'Brand Website Demo',
-        text: 'Brand Website(Demo), Code along to enhance my skills on use of TailwindCSS. Built with React.js, and TailwindCss',
+        text: 'This a regular website built fully with TailwindCSS as a devDependency. Built with React.JS',
         link: 'https://github.com/ehma90/Brand-Website',
         deploy: 'https://brand-website-demo.vercel.app/'
     },
@@ -48,7 +48,7 @@ const PorfolioData = [
         id: 5,
         image: darkMode,
         header: 'Theme Mode',
-        text: 'Built a form validation(Demo) to practice the use local storage hook from react.js to save a theme-mode in the browswer whenever the page reloads. Built with React,js',
+        text: "This application’s main function for switching from dark or light mode uses the use-local-storage package to store the current state in the browser’s local storage. Built with custom CSS and React.JS",
         link: 'https://github.com/ehma90/Dark-Mode',
         deploy: 'https://dark-mode-co5o2sjhp-ehma90.vercel.app/'
     },
@@ -56,15 +56,16 @@ const PorfolioData = [
         id: 6,
         image: movieBookings,
         header: 'Movie Seat Bookings',
-        text: 'Built this Side Project to enhace my skills in javascript. Built with Html, Css3, and JavaScript',
+        text: "It’s no surprise the interest people have in viewing a show or movies, interested folks buy tickets in other to see a movie, although there is an analog way of documenting the accounts and list of participants which are boring and complicated if participants are in large numbers. Technology has made it easy to get this data. This application aims at doing just that. But here we can choose a movie list passed in manually, and there is a functionality for calculating the total price of each sit picked and movie rate. Built with HTML5, CSS3, and vanilla javascript",
         link: 'https://github.com/ehma90/movie-seat-bookings',
         deploy: 'https://ehma90.github.io/movie-seat-bookings/'
+        
     },
     {
         id: 7,
         image: formValidation,
         header: 'Form Validation',
-        text: 'Built this project to check every field validation when filling a form. Built with Html, Css3, and JavaScript',
+        text: 'This simple form validation authenticates a username, and email, and confirms two passwords typed in. On our modern website/web application, this is a basic way to get data from clients in other to validate their authenticity to access the app or view other premium packages, whatever the case may be. Built with HTML5, CSS3, and vanilla javascript.',
         link: 'https://github.com/ehma90/form-validation',
         deploy: 'https://ehma90.github.io/form-validation/'
     },
@@ -72,7 +73,7 @@ const PorfolioData = [
         id: 8,
         image: infiniteScroll,
         header: 'Infinte Scroll Post',
-        text: 'Code Alone to create a functional scroll post that reloads when the scroll hit some certain heights. Built with Html, Css3, and JavaScript',
+        text: 'In this application, having a basic UI, the functionality here is an API call from jsonplaceholder, where the data as an array is mapped into cards. Also there is a filter functionality that filters either the title or the body of the data. Built with HTML5, CSS3, and vanilla javascript.',
         link: 'https://github.com/ehma90/inifinite-scroll-post',
         deploy: 'https://ehma90.github.io/inifinite-scroll-post/'
     },
@@ -80,7 +81,7 @@ const PorfolioData = [
         id: 9,
         image: menuSlide,
         header: 'Menu Slide',
-        text: 'Built this side project that has modal and menu functionality. Built with Html, Css3, and JavaScript',
+        text: 'This project has just two basic functions, to slide in the menu bar and pop up a modal when logging in. Basically, most of our modern website and web application has these functionalities as an interaction with clients. Built with HTML5, CSS3, and vanilla javascript.',
         link: 'https://github.com/ehma90/menu-slider-modal',
         deploy: 'https://ehma90.github.io/menu-slider-modal/'
     },
