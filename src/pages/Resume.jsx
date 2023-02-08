@@ -1,9 +1,13 @@
-import "../../style/resume.css";
+import "../style/resume.css";
 
 function Resume() {
   return (
     <div>
-      <div className="my-[100px]">
+      <div className="my-[100px]"
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000">
         <h1 className="text-3xl md:text-6xl my-2 md:my-4 mb:my-5 font-extralight">
           <span className="font-bold">Emmanuel</span> Essien
         </h1>

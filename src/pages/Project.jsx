@@ -2,7 +2,7 @@ import { useParams} from "react-router-dom";
 import { AiFillGithub } from "react-icons/ai";
 import {TbArrowNarrowLeft} from 'react-icons/tb'
 import {BsLink45Deg} from 'react-icons/bs'
-import "../../style/project.css";
+import "../style/project.css";
 
 function Project({ PortData }) {
   const { header } = useParams();

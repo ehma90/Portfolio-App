@@ -1,9 +1,9 @@
 import Navbar from "./Component/Navbar/Navbar.jsx";
-import Hero from "./Component/pages/Hero.jsx";
-import NonFound from "./Component/pages/NonFound.jsx";
-import Projects from "./Component/pages/Projects.jsx";
-import Project from "./Component/pages/Project.jsx";
-import Resume from "./Component/pages/Resume.jsx";
+import Hero from "./pages/Hero.jsx";
+import NonFound from "./pages/NonFound.jsx";
+import Projects from "./pages/Projects.jsx";
+import Project from "./pages/Project.jsx";
+import Resume from "./pages/Resume.jsx";
 import PorfolioData  from "./data/PorfolioData";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
