@@ -16,9 +16,9 @@ function App() {
   
   return (
     <Router>
-      <div className="container mx-auto px-10 h-screen">
+      <div className="container mx-auto ">
         <Navbar />
-        <main className="container mx-auto">
+        <main>
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/projects" element={<Projects PortData={data}/>} />

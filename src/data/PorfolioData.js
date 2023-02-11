@@ -108,8 +108,8 @@ const PorfolioData = [
         image: tic_tic_toe,
         header: 'TIC-TAC-TOE Game',
         text: '',
-        link: 'https://github.com/ehma90/Advance-shopping-cart',
-        deploy: 'https://shopping-cart-eight-beryl.vercel.app/'
+        link: 'https://github.com/ehma90/tic-tac-toe',
+        deploy: 'https://ehma90.github.io/tic-tac-toe/'
     },
     {
         id: 13,

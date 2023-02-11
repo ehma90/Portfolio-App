@@ -3,7 +3,7 @@ import { FaLaptopCode } from "react-icons/fa";
 
 function Projects({ PortData }) {
   return (
-    <div className="flex-col ">
+    <div className="flex-col px-10 md:px-0 overflow-x-hidden">
       <div className="my-[100px]"
       data-aos="zoom-out-left"
       data-aos-offset="200"

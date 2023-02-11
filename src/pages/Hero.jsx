@@ -1,10 +1,10 @@
-import About from "../Component/Hero/About";
+import Profile from "../Component/Hero/Profile";
 
 function Hero() {
   return (
     <>
       <div
-        className="my-[100px]"
+        className="my-[100px] px-10 md:px-0"
         data-aos="fade-down"
         data-aos-offset="200"
         data-aos-delay="50"
@@ -21,7 +21,7 @@ function Hero() {
         data-aos-offset="200"
         data-aos-delay="50"
         data-aos-duration="1000">
-        <About />
+        <Profile />
         </div>
     </>
   );

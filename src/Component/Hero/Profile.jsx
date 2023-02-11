@@ -1,10 +1,8 @@
 import React from "react";
 
-function About() {
+function Profile() {
   return (
-    <div
-      className="mt-[150px] mb-[100px] text-md md:text-lg"
-    >
+    <div className="mt-[150px] mb-[100px] px-10 md:px-0 text-md md:text-lg">
       <p className="leading-7">
         I'm <span className="text-green-900 font-semibold ">Emmanuel,</span> a
         software developer from Nigeria.
@@ -43,4 +41,4 @@ function About() {
   );
 }
 
-export default About;
+export default Profile;

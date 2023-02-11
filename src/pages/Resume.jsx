@@ -2,7 +2,7 @@ import "../style/resume.css";
 
 function Resume() {
   return (
-    <div>
+    <div className="px-10 md:px-0 overflow-x-hidden">
       <div className="my-[100px]"
       data-aos="fade-left"
       data-aos-offset="200"
