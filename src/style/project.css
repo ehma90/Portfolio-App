@@ -1,5 +1,9 @@
 .project-container {
   margin: 55px 0 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-img {
@@ -10,20 +14,22 @@
 }
 
 .project-header {
-  text-align: center;
-  margin-top: 45px;
+  margin-bottom: 45px;
   font-size: 45px;
   font-weight: 100;
-  font-style: italic;
 }
 
 .project-text {
   max-width: 800px;
   width: 100%;
-  text-align: center;
-  margin: 30px auto;
-  font-size: 20px;
+  margin: 100px 0 50px;
+  font-size: 18px;
   font-weight: 300;
+}
+
+.functions li{
+  list-style-type: circle;
+  color: black;
 }
 
 .toGithub,

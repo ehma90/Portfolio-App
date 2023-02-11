@@ -1,7 +1,7 @@
 import Navbar from "./Component/Navbar/Navbar.jsx";
 import Hero from "./pages/Hero.jsx";
 import NonFound from "./pages/NonFound.jsx";
-import Projects from "./pages/Projects.jsx";
+import ProjectsGroup from "./pages/ProjectsGroup.jsx";
 import Project from "./pages/Project.jsx";
 import Resume from "./pages/Resume.jsx";
 import PorfolioData  from "./data/PorfolioData";
@@ -21,7 +21,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Hero />} />
-            <Route path="/projects" element={<Projects PortData={data}/>} />
+            <Route path="/projects" element={<ProjectsGroup PortData={data}/>} />
             <Route path="/projects/:header" element={<Project PortData={data}/>} />
             <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<NonFound />} />

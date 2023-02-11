@@ -1,7 +1,7 @@
 import ProjectCard from "../Component/Projects/ProjectCard";
 import { FaLaptopCode } from "react-icons/fa";
 
-function Projects({ PortData }) {
+function ProjectsGroup({ PortData }) {
   return (
     <div className="flex-col px-10 md:px-0 overflow-x-hidden">
       <div className="my-[100px]"
@@ -33,4 +33,4 @@ function Projects({ PortData }) {
   );
 }
 
-export default Projects;
+export default ProjectsGroup;
