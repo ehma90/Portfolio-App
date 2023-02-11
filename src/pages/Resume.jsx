@@ -25,7 +25,7 @@ function Resume() {
         <h2 className="resume-header">Experience</h2>
         <div className="experience">
           <div className="resume-list">
-            <label className="resume-date">Oct 2022 - Present</label>
+            <label className="resume-date">Oct 2022 - Dec 2022</label>
             <label className="resume-date">(Full-time)</label>
           </div>
           <div className="resume-lists">
