@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div>
       <div className="my-[100px]"
-      data-aos="fade-down"
+      data-aos="fade-left"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="1000">

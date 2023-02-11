@@ -9,6 +9,8 @@ import infiniteScroll from '../Component/assets/infinite-scroll.png'
 import menuSlide from '../Component/assets/menu-slide.png'
 import relaxerApp from '../Component/assets/relaxer-app.png'
 import shoppingCart from "../Component/assets/shoppingCart.png"
+import pebble from "../Component/assets/pebble.png"
+import tic_tic_toe from '../Component/assets/tic-tac-toe.png'
 
 
 const PorfolioData = [
@@ -100,6 +102,22 @@ const PorfolioData = [
         text: 'Apparently, the modern e-commerce web application has the functionality to save, add, remove, and delete items, so this web application is about that. This ideal shopping cart shows the list of items in a store, with functionalities like adding, removing, saving, and deleting items from a cart.',
         link: 'https://github.com/ehma90/Advance-shopping-cart',
         deploy: 'https://shopping-cart-eight-beryl.vercel.app/'
+    },
+    {
+        id: 12,
+        image: tic_tic_toe,
+        header: 'TIC-TAC-TOE Game',
+        text: '',
+        link: 'https://github.com/ehma90/Advance-shopping-cart',
+        deploy: 'https://shopping-cart-eight-beryl.vercel.app/'
+    },
+    {
+        id: 13,
+        image: pebble,
+        header: 'Pebble Landing Page',
+        text: '',
+        link: 'https://github.com/ehma90/Pebble',
+        deploy: 'https://pebble-beryl.vercel.app/'
     },
 ]
 
