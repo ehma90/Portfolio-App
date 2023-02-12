@@ -3,15 +3,17 @@ import "../style/resume.css";
 function Resume() {
   return (
     <div className="px-10 md:px-0 overflow-x-hidden">
-      <div className="my-[100px]"
-      data-aos="fade-left"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="1000">
+      <div
+        className="my-[100px]"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
         <h1 className="text-3xl md:text-6xl my-2 md:my-4 mb:my-5 font-extralight">
           <span className="font-bold">Emmanuel</span> Essien
         </h1>
-        <p className="font-medium text-md md:text-2xl">Software Developer</p>
+        <p className="font-medium text-md md:text-2xl">Front-end Engineer</p>
         <div className="shadow-lg shadow-green-900/50 mx-auto absolute w-[148px] md:w-[221px] border border-green-900"></div>
       </div>
 
@@ -30,7 +32,7 @@ function Resume() {
           </div>
           <div className="resume-lists">
             <label className="FED">
-              Front-end Developer{" "}
+              Front-end Engineer {" "}
               <span>at Rareket Technology Solution (Lagos, Nigeria)</span>{" "}
             </label>
             <ul>
@@ -56,7 +58,7 @@ function Resume() {
           </div>
           <div className="resume-lists">
             <label className="FED">
-              Front-end Developer <span>at Libre Defi (Ontario, Canada)</span>{" "}
+              Front-end Engineer <span>at Libre Defi (Ontario, Canada)</span>{" "}
             </label>
             <ul>
               <li>
@@ -86,7 +88,8 @@ function Resume() {
         <div className=" stack">
           <ul>
             <li>
-              CSS libraries and tools including Tailwind CSS, Headless UI, Daisy UI, Bootstrap, Sass.
+              CSS libraries and tools including Tailwind CSS, Headless UI, Daisy
+              UI, Bootstrap, Sass.
             </li>
             <li>JavaScript frameworks such as React.js.</li>
             <li>JavaScript meta frameworks such as Next.js.</li>
