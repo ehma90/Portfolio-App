@@ -22,7 +22,7 @@
 .project-text {
   max-width: 800px;
   width: 100%;
-  margin: 100px 0 50px;
+  margin: 10px 0 50px;
   font-size: 18px;
   font-weight: 300;
 }
@@ -35,7 +35,7 @@
 .toGithub,
 .liveLink {
   background-color: #14532d;
-  width: 121px;
+  width: 131px;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -59,6 +59,7 @@
 
   .toGithub,
   .liveLink {
+    width: 111px;
     font-size: 12px;
     padding: 5px 8px;
   }

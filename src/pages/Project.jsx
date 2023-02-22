@@ -16,21 +16,16 @@ function Project({ PortData }) {
             <img src={card.image} alt={card.header} className="rounded-md" />
           </div>
 
+          <ul className="py-[16px] md:py-[48px] flex justify-start gap-x-[8px] opacity-50">
+            {card.stack.map(item => (
+              <li key={item.id} className="m-0 py-[4px] px-[8px] md:py-[8px] md:px-[16px] text-[12px] md:text-[14px] font-medium border border-green-900 rounded-full list-none">{item}</li>
+            ))}
+          </ul>
 
           <p className="project-text">{card.text}</p>
 
-          {card.functions && (
-            <div>
-              <h4 className="font-medium text-xl mb-2 text-green-900">Functionalities</h4>
-              <ul className="functions">
-              {card.functions.map((text, index) => (
-                <li key={index}>{text}</li>
-              ))}
-            </ul>
-            </div>
-          )}
 
-          <div className="flex justify-between max-w-[960px] w-full mx-auto">
+          <div className="flex justify-between text-[18px] max-w-[960px] w-full mx-auto">
             <a href={card.link} className="toGithub">
               <AiFillGithub className="mr-2" />
               Github link
