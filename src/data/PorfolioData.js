@@ -19,7 +19,7 @@ const PorfolioData = [
     id: 1,
     image: universityWebsite,
     header: "Univesity website",
-    text: "A university website(Demo), that shows courses offered by this ideal university. Built using HTML, Css3, Javascript and PHP ",
+    text: "A university website(Demo), that shows courses offered by this ideal university. Built using HTML, Css3, Javascript and PHP.",
     link: "https://github.com/ehma90/project-tutorial",
     deploy: "https://ehma90.github.io/project-tutorial/",
     stack: ["HTML5", "CSS3", "Javascript", "PHP"],
