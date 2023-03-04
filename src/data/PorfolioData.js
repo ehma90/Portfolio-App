@@ -12,7 +12,7 @@ import shoppingCart from "../Component/assets/shoppingCart.png";
 import pebble from "../Component/assets/pebble.png";
 import tic_tic_toe from "../Component/assets/tic-tac-toe.png";
 import protis from "../Component/assets/protis.png"
-import raraket from "../Component/assets/Rareket.png"
+import raraket from "../Component/assets/rareket.png"
 
 const PorfolioData = [
   {
