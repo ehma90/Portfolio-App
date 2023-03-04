@@ -8,7 +8,7 @@ function Cards({ items }) {
     data-aos-delay="50"
     data-aos-duration="1000">
       <div className="card-img">
-        <img src={items.image} alt="cards" className="w-full" />
+        <img src={items.image} alt="cards" className="w-full rounded" />
       </div>
 
       <div className="">
