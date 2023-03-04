@@ -45,15 +45,6 @@ const PorfolioData = [
   },
   {
     id: 4,
-    image: githubFinder,
-    header: "Github Finder App",
-    text: "Created with github API to search for github users and display a few infomations about a particular user. Built with React.js, TailwindCss, and DaisyUI",
-    link: "https://github.com/ehma90/Github-Finder-App",
-    deploy: "https://githubfinder-app-two.vercel.app/",
-    stack: ["React.JS", "DaisyUI", "axios"],
-  },
-  {
-    id: 5,
     image: darkMode,
     header: "Theme Mode",
     text: "This application’s main function for switching from dark or light mode uses the use-local-storage package to store the current state in the browser’s local storage. Built with custom CSS and React.JS",
@@ -62,7 +53,7 @@ const PorfolioData = [
     stack: ["React.JS", "use-local-storage"],
   },
   {
-    id: 6,
+    id: 5,
     image: movieBookings,
     header: "Movie Seat Bookings",
     text: "It’s no surprise the interest people have in viewing a show or movies, interested folks buy tickets in other to see a movie, although there is an analog way of documenting the accounts and list of participants which are boring and complicated if participants are in large numbers. Technology has made it easy to get this data. This application aims at doing just that. But here we can choose a movie list passed in manually, and there is a functionality for calculating the total price of each sit picked and movie rate.",
@@ -71,7 +62,7 @@ const PorfolioData = [
     stack: ["HTML5", "CSS3", "Javascript"],
   },
   {
-    id: 7,
+    id: 6,
     image: formValidation,
     header: "Form Validation",
     text: "This simple form validation authenticates a username, and email, and confirms two passwords typed in. On our modern website/web application, this is a basic way to get data from clients in other to validate their authenticity to access the app or view other premium packages, whatever the case may be.",
@@ -80,7 +71,7 @@ const PorfolioData = [
     stack: ["HTML5", "CSS3", "Javascript"],
   },
   {
-    id: 8,
+    id: 7,
     image: infiniteScroll,
     header: "Infinte Scroll Post",
     text: "In this application, having a basic UI, the functionality here is an API call from jsonplaceholder, where the data as an array is mapped into cards. Also there is a filter functionality that filters either the title or the body of the data.",
@@ -89,7 +80,7 @@ const PorfolioData = [
     stack: ["HTML5", "CSS3", "Javascript"],
   },
   {
-    id: 9,
+    id: 8,
     image: menuSlide,
     header: "Menu Slide",
     text: "This project has just two basic functions, to slide in the menu bar and pop up a modal when logging in. Basically, most of our modern website and web application has these functionalities as an interaction with clients.",
@@ -98,13 +89,22 @@ const PorfolioData = [
     stack: ["HTML5", "CSS3", "Javascript"],
   },
   {
-    id: 10,
+    id: 9,
     image: relaxerApp,
     header: "Relaxer App",
     text: "This application aims at relaxing your breathing interval, some functionalities are breathing in, holding, and breathing out within a 7.5 seconds interval.",
     link: "https://github.com/ehma90/Relaxer-App",
     deploy: "https://ehma90.github.io/Relaxer-App/",
     stack: ["HTML5", "CSS3", "Javascript"],
+  },
+  {
+    id: 10,
+    image: githubFinder,
+    header: "Github Finder App",
+    text: "Created with github API to search for github users and display a few infomations about a particular user. Built with React.js, TailwindCss, and DaisyUI",
+    link: "https://github.com/ehma90/Github-Finder-App",
+    deploy: "https://githubfinder-app-two.vercel.app/",
+    stack: ["React.JS", "DaisyUI", "axios"],
   },
   {
     id: 11,
