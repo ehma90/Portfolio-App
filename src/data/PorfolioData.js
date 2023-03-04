@@ -11,6 +11,8 @@ import relaxerApp from "../Component/assets/relaxer-app.png";
 import shoppingCart from "../Component/assets/shoppingCart.png";
 import pebble from "../Component/assets/pebble.png";
 import tic_tic_toe from "../Component/assets/tic-tac-toe.png";
+import protis from "../Component/assets/protis.png"
+import raraket from "../Component/assets/Rareket.png"
 
 const PorfolioData = [
   {
@@ -124,12 +126,27 @@ const PorfolioData = [
   },
   {
     id: 13,
+    image: raraket,
+    header: "Rareket NFT MarketPlace",
+    deploy: "https://rareket-v2.vercel.app/",
+    stack: ["React.JS", "TailwindCSS"],
+  },
+  {
+    id: 14,
     image: pebble,
     header: "Pebble Landing Page",
     text: "Here is a landing Page to this demo website, which contain some event programmes and news updates. The css framework allows easy styling of components.",
     link: "https://github.com/ehma90/Pebble",
     deploy: "https://pebble-beryl.vercel.app/",
     stack: ["React.JS", "TailwindCSS"],
+  },
+  {
+    id: 15,
+    image: protis,
+    header: "Protis HQ",
+    text: "Protis a tech start-up that innovative and creative agency for modern day businesses.",
+    deploy: "https://protishq.vercel.app",
+    stack: ["React.JS", "TailwindCSS", "AOS animation"],
   },
 ];
 

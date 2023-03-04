@@ -26,10 +26,15 @@ function Project({ PortData }) {
 
 
           <div className="flex justify-between text-[18px] max-w-[960px] w-full mx-auto">
-            <a href={card.link} className="toGithub">
+            {card.link ? (
+              <a href={card.link} className="toGithub">
               <AiFillGithub className="mr-2" />
               Github link
             </a>
+            ) : 
+            (
+              <button className="toGithub" disabled>Private Repo</button>
+            )}
 
             <a href={card.deploy} className="liveLink">
               <BsLink45Deg className="mr-2" /> See Live
