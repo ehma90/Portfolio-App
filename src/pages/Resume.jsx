@@ -91,8 +91,9 @@ function Resume() {
               CSS libraries and tools including Tailwind CSS, Headless UI, Daisy
               UI, Bootstrap, Sass.
             </li>
-            <li>JavaScript frameworks such as React.js.</li>
+            <li>JavaScript frameworks such as React and Redux.</li>
             <li>JavaScript meta frameworks such as Next.js.</li>
+            <li>Restful APIs / Node.js</li>
             <li>Design tools like Figma.</li>
           </ul>
         </div>
