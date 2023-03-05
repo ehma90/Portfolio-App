@@ -145,7 +145,7 @@ const PorfolioData = [
     id: 15,
     image: protis,
     header: "Protis HQ",
-    text: "Protis is a technology start-up that serves as an innovative and creative agency for modern-day businesses. This static webpage was designed and built by myself and my colleagues for the purpose of promoting our business.",
+    text: "Protis is a technology start-up that serves as an innovative and creative agency for modern-day businesses. This static webpage was designed and built by myself and my colleagues for the purpose of promoting our skills and business.",
     deploy: "https://protishq.com",
     stack: ["React.JS", "TailwindCSS", "AOS animation"],
   },
