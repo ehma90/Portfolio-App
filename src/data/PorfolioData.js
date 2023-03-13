@@ -79,6 +79,7 @@ const PorfolioData = [
   {
     id: 7,
     image: infiniteScroll,
+    slug: "infinte-scroll",
     header: "Infinte Scroll Post",
     text: "In this application, having a basic UI, the functionality here is an API call from jsonplaceholder, where the data as an array is mapped into cards. Also there is a filter functionality that filters either the title or the body of the data.",
     link: "https://github.com/ehma90/inifinite-scroll-post",
@@ -88,6 +89,7 @@ const PorfolioData = [
   {
     id: 8,
     image: menuSlide,
+    slug: "menu-slide",
     header: "Menu Slide",
     text: "This project has just two basic functions, to slide in the menu bar and pop up a modal when logging in. Basically, most of our modern website and web application has these functionalities as an interaction with clients.",
     link: "https://github.com/ehma90/menu-slider-modal",
@@ -97,6 +99,7 @@ const PorfolioData = [
   {
     id: 9,
     image: relaxerApp,
+    slug: "relaxer-app",
     header: "Relaxer App",
     text: "This application aims at relaxing your breathing interval, some functionalities are breathing in, holding, and breathing out within a 7.5 seconds interval.",
     link: "https://github.com/ehma90/Relaxer-App",
