@@ -18,6 +18,7 @@ const PorfolioData = [
   {
     id: 1,
     image: universityWebsite,
+    slug: "university-website",
     header: "Univesity website",
     text: "A university website(Demo), that shows courses offered by this ideal university. Built using HTML, Css3, Javascript and PHP.",
     link: "https://github.com/ehma90/project-tutorial",
@@ -27,6 +28,7 @@ const PorfolioData = [
   {
     id: 2,
     image: techConference,
+    slug: "tech-conference",
     header: "Tech AI conference",
     text: "Customized website for a Tech Conference(Demo), created to complete our weekly milestone at Microverse. This webpage is built with HTML5, CSS3, and JavaScript",
     link: "https://github.com/ehma90/Tech-AI-Conference",
@@ -37,6 +39,7 @@ const PorfolioData = [
   {
     id: 3,
     image: brandWebsite,
+    slug: "brand-website",
     header: "Brand Website Demo",
     text: "This a regular website built fully with TailwindCSS as a devDependency. Built with React.JS",
     link: "https://github.com/ehma90/Brand-Website",
