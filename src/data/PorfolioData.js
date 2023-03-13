@@ -59,6 +59,7 @@ const PorfolioData = [
   {
     id: 5,
     image: movieBookings,
+    slug: "movie-bookings",
     header: "Movie Seat Bookings",
     text: "It’s no surprise the interest people have in viewing a show or movies, interested folks buy tickets in other to see a movie, although there is an analog way of documenting the accounts and list of participants which are boring and complicated if participants are in large numbers. Technology has made it easy to get this data. This application aims at doing just that. But here we can choose a movie list passed in manually, and there is a functionality for calculating the total price of each sit picked and movie rate.",
     link: "https://github.com/ehma90/movie-seat-bookings",
