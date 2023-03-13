@@ -22,7 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/projects" element={<ProjectsGroup PortData={data}/>} />
-            <Route path="/projects/:header" element={<Project PortData={data}/>} />
+            <Route path="/projects/:slug" element={<Project PortData={data}/>} />
             <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
