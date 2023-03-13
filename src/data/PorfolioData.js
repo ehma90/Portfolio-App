@@ -49,6 +49,7 @@ const PorfolioData = [
   {
     id: 4,
     image: darkMode,
+    slug: "dark-mode",
     header: "Theme Mode",
     text: "This application’s main function for switching from dark or light mode uses the use-local-storage package to store the current state in the browser’s local storage. Built with custom CSS and React.JS",
     link: "https://github.com/ehma90/Dark-Mode",
