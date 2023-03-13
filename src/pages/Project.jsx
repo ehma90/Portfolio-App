@@ -4,11 +4,11 @@ import { BsLink45Deg } from "react-icons/bs";
 import "../style/project.css";
 
 function Project({ PortData }) {
-  const { header } = useParams();
+  const { slug } = useParams();
 
   return (
     <div className="container mx-auto px-10 md:px-0">
-      {PortData.filter((card) => card.header === header).map((card) => (
+      {PortData.filter((card) => card.slug === slug).map((card) => (
         <div key={card.id} className="project-container">
           <h1 className="project-header">{card.header}</h1>
           <div className="project-img">
