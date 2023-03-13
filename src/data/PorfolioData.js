@@ -69,6 +69,7 @@ const PorfolioData = [
   {
     id: 6,
     image: formValidation,
+    slug: "form-validation",
     header: "Form Validation",
     text: "This simple form validation authenticates a username, and email, and confirms two passwords typed in. On our modern website/web application, this is a basic way to get data from clients in other to validate their authenticity to access the app or view other premium packages, whatever the case may be.",
     link: "https://github.com/ehma90/form-validation",
