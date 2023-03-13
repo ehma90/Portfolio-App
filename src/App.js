@@ -15,7 +15,7 @@ function App() {
   AOS.init();
   
   return (
-    <Router>
+      <Router>
       <div className="container mx-auto ">
         <Navbar />
         <main>

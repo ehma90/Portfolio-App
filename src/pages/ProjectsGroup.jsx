@@ -1,6 +1,7 @@
 import ProjectCard from "../Component/Projects/ProjectCard";
 import { FaLaptopCode } from "react-icons/fa";
 
+
 function ProjectsGroup({ PortData }) {
   return (
     <div className="flex-col px-10 md:px-0 overflow-x-hidden">
@@ -25,6 +26,7 @@ function ProjectsGroup({ PortData }) {
       <div className="mt-6 mb-[50px]">
         <ProjectCard PortDatas={PortData} />
       </div>
+
 
       <div className=" flex justify-center">
         <FaLaptopCode className="text-green-900 text-4xl" />

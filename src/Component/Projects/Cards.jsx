@@ -12,7 +12,7 @@ function Cards({ items }) {
       </div>
 
       <div className="">
-        <Link to={`/projects/${items.header}`} className='card-btn'>See Project</Link>
+        <Link to={`/projects/${items.slug}`} className='card-btn'>See Project</Link>
       </div>
     </div>
   );
