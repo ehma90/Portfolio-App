@@ -109,6 +109,7 @@ const PorfolioData = [
   {
     id: 10,
     image: githubFinder,
+    slug: "github-finder",
     header: "Github Finder App",
     text: "Created with github API to search for github users and display a few infomations about a particular user. Built with React.js, TailwindCss, and DaisyUI",
     link: "https://github.com/ehma90/Github-Finder-App",
@@ -118,6 +119,7 @@ const PorfolioData = [
   {
     id: 11,
     image: shoppingCart,
+    slug: "shopping-cart",
     header: "Advance Shopping Cart",
     text: "Apparently, the modern e-commerce web application has the functionality to save, add, remove, and delete items, so this web application is about that. This ideal shopping cart shows the list of items in a store, with functionalities like adding, removing, saving, and deleting items from a cart.",
     link: "https://github.com/ehma90/Advance-shopping-cart",
@@ -127,6 +129,7 @@ const PorfolioData = [
   {
     id: 12,
     image: tic_tic_toe,
+    slug: "tic-tac-toe",
     header: "TIC-TAC-TOE",
     text: "Most people have engage in the battle of winning tic-tac-toe when playing with an opponent on a sheet of paper or other physical forms of display. I created this app to do the exact same thing.",
     link: "https://github.com/ehma90/tic-tac-toe",
@@ -136,6 +139,7 @@ const PorfolioData = [
   {
     id: 13,
     image: raraket,
+    slug: "rereket",
     header: "Rareket NFT MarketPlace",
     text: "I developed version 2.0 of a web3 front-end application for Rareket Technology Solutions, designed to showcase NFTs and collections by various artists. The application allows users to explore, create, modify, purchase, and sell NFTs, while clients can view updated collections of artists' works.",
     deploy: "https://rareket-v2.vercel.app/",
@@ -144,6 +148,7 @@ const PorfolioData = [
   {
     id: 14,
     image: pebble,
+    slug: "pebble",
     header: "Pebble Landing Page",
     text: "A landing page has been created for this demonstration website, featuring event programs and news updates. The CSS framework implemented in this landing page facilitates effortless styling of components.",
     link: "https://github.com/ehma90/Pebble",
@@ -153,6 +158,7 @@ const PorfolioData = [
   {
     id: 15,
     image: protis,
+    slug: "protis",
     header: "Protis HQ",
     text: "Protis is a technology start-up that serves as an innovative and creative agency for modern-day businesses. This static webpage was designed and built by myself and my colleagues for the purpose of promoting our skills and business.",
     deploy: "https://protishq.com",
