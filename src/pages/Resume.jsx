@@ -32,7 +32,7 @@ function Resume() {
           </div>
           <div className="resume-lists">
             <label className="FED">
-              Front-end Engineer {" "}
+              Front-end Engineer{" "}
               <span>at Rareket Technology Solution (Lagos, Nigeria)</span>{" "}
             </label>
             <ul>
@@ -41,11 +41,11 @@ function Resume() {
                 features such as:
               </div>
               <li>
-                Built connect wallet modal to interact with the Blockchain smart
+                Connect wallet modal UI to interact with the Blockchain smart
                 contracts like Ethereum and Polygon.
               </li>
               <li>
-                Built Explore page that shows collections of an Artist NFTs.
+                Explore page that shows collections of an Artist NFTs.
               </li>
             </ul>
           </div>
@@ -63,8 +63,12 @@ function Resume() {
             <ul>
               <li>
                 Assigned to develop a landing page for Libre-Farm NFT site.
-                Completed this project using HTML, and CSS framework Bootstrap.
               </li>
+              <li>
+                This web site allows users to see total NFT to be minted and a
+                countdown timer to launch date
+              </li>
+              <li>Complete this project using HTML, and bootstrap.</li>
             </ul>
           </div>
         </div>
