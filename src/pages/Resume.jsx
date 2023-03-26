@@ -92,12 +92,12 @@ function Resume() {
         <div className=" stack">
           <ul>
             <li>
-              CSS libraries and tools including Tailwind CSS, Headless UI, Daisy
-              UI, Bootstrap, Sass.
+              CSS libraries and tools including Tailwind CSS, Daisy
+              UI, Bootstrap, and Sass.
             </li>
-            <li>JavaScript frameworks such as React and Redux.</li>
+            <li>JavaScript frameworks such as React/Redux</li>
             <li>JavaScript meta frameworks such as Next.js.</li>
-            <li>Restful APIs / Node.js</li>
+            <li>Node.js</li>
             <li>Design tools like Figma.</li>
           </ul>
         </div>
