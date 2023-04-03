@@ -44,9 +44,7 @@ function Resume() {
                 Connect wallet modal UI to interact with the Blockchain smart
                 contracts like Ethereum and Polygon.
               </li>
-              <li>
-                Explore page that shows collections of an Artist NFTs.
-              </li>
+              <li>Explore page that shows collections of an Artist NFTs.</li>
             </ul>
           </div>
         </div>
@@ -91,12 +89,12 @@ function Resume() {
         <h2 className="resume-header">Skills and Tech Stack</h2>
         <div className=" stack">
           <ul>
-            <li>
-              CSS libraries and tools including Tailwind CSS, Daisy
-              UI, Bootstrap, and Sass.
-            </li>
-            <li>JavaScript frameworks such as React/Redux</li>
+            <li>HTML5 and CSS3</li>
+            <li>JavaScript frameworks such as React.js</li>
             <li>JavaScript meta frameworks such as Next.js.</li>
+            <li>
+              Libraries such as Redux, TailwindCSS, Bootstrap, and DaisyUI
+            </li>
             <li>Node.js</li>
             <li>Design tools like Figma.</li>
           </ul>
