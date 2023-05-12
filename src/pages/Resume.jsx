@@ -27,19 +27,44 @@ function Resume() {
         <h2 className="resume-header">Experience</h2>
         <div className="experience">
           <div className="resume-list">
-            <label className="resume-date">Oct 2022 - Dec 2022</label>
+            <label className="resume-date">Nov 2019 - Present</label>
+            <label className="resume-date">(Part-time)</label>
+          </div>
+          <div className="resume-lists">
+            <label className="FED">
+              Front-end Engineer <span>at Protis Studios (Nigeria)</span>{" "}
+            </label>
+            <ul>
+              <li>
+                Collaborated with a colleague to develop the Protis website.
+              </li>
+              <li>
+                Implemented optimised CSS scroll effects for animations and
+                created a slug page to showcase relevant information about past
+                projects undertaken by Protis.
+              </li>
+              <li>
+                Ensured the UI closely matched the provided Figma template.
+              </li>
+              <li>
+                Employed JavaScript, React.js, Tailwind CSS, and utilised the
+                AOS package manager to successfully deliver the project.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="experience">
+          <div className="resume-list">
+            <label className="resume-date">Oct 2022 - Jan 2023</label>
             <label className="resume-date">(Full-time)</label>
           </div>
           <div className="resume-lists">
             <label className="FED">
               Front-end Engineer{" "}
-              <span>at Rareket Technology Solution (Lagos, Nigeria)</span>{" "}
+              <span>at Rareket Technology Solution (South Africa)</span>{" "}
             </label>
             <ul>
-              <div className="title">
-                Assigned to develop frontend of a web3 application which inlcude
-                features such as:
-              </div>
               <li>
                 Connect wallet modal UI to interact with the Blockchain smart
                 contracts like Ethereum and Polygon.
@@ -51,22 +76,24 @@ function Resume() {
 
         <div className="experience">
           <div className="resume-list">
-            <label className="resume-date">Feb 2022 - Jun 2022</label>
+            <label className="resume-date">Dec 2021 - Oct 2022</label>
             <label className="resume-date">(Full-time)</label>
           </div>
           <div className="resume-lists">
             <label className="FED">
-              Front-end Engineer <span>at Libre Defi (Ontario, Canada)</span>{" "}
+              Front-end Developer <span>at Redux Protocol (Canada)</span>{" "}
             </label>
             <ul>
               <li>
-                Assigned to develop a landing page for Libre-Farm NFT site.
+                Tasked with creating a landing page for the Libre-Farm NFT site.
               </li>
               <li>
-                This web site allows users to see total NFT to be minted and a
-                countdown timer to launch date
+                The landing page displayed the total number of NFTs to be minted
+                and featured a countdown timer to the launch date.
               </li>
-              <li>Complete this project using HTML, and bootstrap.</li>
+              <li>
+                Completed this project using HTML, bootstrap, and Javascript.
+              </li>
             </ul>
           </div>
         </div>
@@ -89,14 +116,9 @@ function Resume() {
         <h2 className="resume-header">Skills and Tech Stack</h2>
         <div className=" stack">
           <ul>
-            <li>HTML5 and CSS3</li>
-            <li>JavaScript frameworks such as React.js</li>
-            <li>JavaScript meta frameworks such as Next.js.</li>
-            <li>
-              Libraries such as Redux, TailwindCSS, Bootstrap, and DaisyUI
-            </li>
-            <li>Node.js</li>
-            <li>Design tools like Figma.</li>
+            <li><span className="undeline">Programming Languages:</span> Node.js, JavaScript, TypeScript, CSS3, HTML5.</li>
+            <li><span className="undeline">Frameworks:</span> Next.js, React.js, TailwindCSS, Bootstrap, DaisyUI..</li>
+            <li><span className="undeline">Tools:</span> Version Control Systems, Package Managers, Github, Gitlab, Figma, Adobe XD.</li>
           </ul>
         </div>
 
@@ -106,31 +128,31 @@ function Resume() {
             <li>
               Email:{" "}
               <span>
-                <a href="mailto:ehmaessien@gmail.com">ehmaessien@gmail.com</a>
+                <a href="mailto:ehmaessien@gmail.com" target="_blank" rel="noreferrer">ehmaessien@gmail.com</a>
               </span>
             </li>
             <li>
               Twitter:{" "}
               <span>
-                <a href="https://twitter.com/ehmaessieen">@ehmaessieen</a>
+                <a href="https://twitter.com/ehmaessieen" target="_blank" rel="noreferrer">@ehmaessieen</a>
               </span>
             </li>
             <li>
               LinkedIn:{" "}
               <span>
-                <a href="https://linkedin.com/in/ehmaessien">@ehmaessien</a>
+                <a href="https://linkedin.com/in/ehmaessien" target="_blank" rel="noreferrer">@ehmaessien</a>
               </span>
             </li>
             <li>
               Github:{" "}
               <span>
-                <a href="https://github.com/ehma90">@ehma90</a>
+                <a href="https://github.com/ehma90" target="_blank" rel="noreferrer">@ehma90</a>
               </span>
             </li>
             <li>
               Telegram:{" "}
               <span>
-                <a href="https://t.me/ehma90">@ehma90</a>
+                <a href="https://t.me/ehma90" target="_blank" rel="noreferrer">@ehma90</a>
               </span>
             </li>
           </ul>
