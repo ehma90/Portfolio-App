@@ -8,7 +8,7 @@ function Navbar() {
 
 
   return (
-    <div className="container my-6">
+    <div className="container my-[50px]">
       <nav className=" flex justify-center  md:justify-end gap-x-8">
         <NavLink to="/">
           <p className={splitLocation[1] === '' ? 'text-lg md:text-xl text-green-900 border-b border-green-900 decoration-1' : 'text-lg md:text-xl'} >
