@@ -138,15 +138,6 @@ const PorfolioData = [
   },
   {
     id: 13,
-    image: raraket,
-    slug: "rereket",
-    header: "Rareket NFT MarketPlace",
-    text: "I developed version 2.0 of a web3 front-end application for Rareket Technology Solutions, designed to showcase NFTs and collections by various artists. The application allows users to explore, create, modify, purchase, and sell NFTs, while clients can view updated collections of artists' works Sadly this project was not completed due to cancellation of project by investors.",
-    deploy: "https://rareket-v2.vercel.app/",
-    stack: ["React.JS", "TailwindCSS"],
-  },
-  {
-    id: 14,
     image: pebble,
     slug: "pebble",
     header: "Pebble Landing Page",
@@ -156,7 +147,7 @@ const PorfolioData = [
     stack: ["React.JS", "TailwindCSS"],
   },
   {
-    id: 15,
+    id: 14,
     image: protis,
     slug: "protis",
     header: "Protis HQ",
