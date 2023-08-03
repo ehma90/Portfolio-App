@@ -5,7 +5,7 @@ function Profile() {
     <div className="mt-[150px] mb-[100px] px-10 md:px-0 text-md md:text-lg">
       <p className="leading-7">
         I'm <span className="text-green-900 font-semibold ">Emmanuel,</span> a
-        Front-end Engineer from Nigeria.
+        software engineer that specializes in web and mobile application.
       </p>
       <p className="leading-7">
         Currently building side projects, you can find it in{" "}
