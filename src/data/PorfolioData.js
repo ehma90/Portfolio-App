@@ -13,6 +13,7 @@ import pebble from "../Component/assets/pebble.png";
 import tic_tic_toe from "../Component/assets/tic-tac-toe.png";
 import protis from "../Component/assets/protis.png"
 import raraket from "../Component/assets/Rareket.png"
+import noimpunity from "../Component/assets/noimpunity.png"
 
 const PorfolioData = [
   {
@@ -154,6 +155,15 @@ const PorfolioData = [
     text: "Protis is a technology start-up that serves as an innovative and creative agency for modern-day businesses. This static webpage was designed and built by myself and my colleagues for the purpose of promoting our skills and business.",
     deploy: "https://protishq.com",
     stack: ["React.JS", "TailwindCSS", "AOS animation"],
+  },
+  {
+    id: 15,
+    image: noimpunity,
+    slug: "noimpunity",
+    header: "No Impunity",
+    text: "No Impunity unlock the potential of litigation funding to support victims of corporate human rights abuse and environmental damage in their fight for justice. In achieving this, I was contracted to built this website/web app, using trending programming language like Typescript, NextJS as framework, and Firebase for authentication. This project has expand and widen my understanding of Typescript.",
+    deploy: "https://www.noimpunity.org/",
+    stack: ["Next.ts", "TailwindCSS", "Typescript", "Firebase", ],
   },
 ];
 

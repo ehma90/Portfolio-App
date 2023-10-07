@@ -30,9 +30,9 @@ ul .title {
 }
 
 .resume-date {
-  font-weight: 300;
+  font-weight: 400;
   display: block;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .resume-header {
@@ -43,11 +43,11 @@ ul .title {
 }
 
 .FED {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .FED span {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .education {

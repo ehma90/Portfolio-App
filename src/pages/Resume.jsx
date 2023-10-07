@@ -27,12 +27,36 @@ function Resume() {
         <h2 className="resume-header">Experience</h2>
         <div className="experience">
           <div className="resume-list">
+            <label className="resume-date">August 2023 - Present</label>
+            <label className="resume-date">(Contracts)</label>
+          </div>
+          <div className="resume-lists">
+            <label className="FED">
+              Front-end Engineer <span className=" text-green-900">- No Impunity (London)</span>{" "}
+            </label>
+            <ul>
+              <li>Built 85% of No Impunity website (front-end).</li>
+              <li>Built Event landing page for case Launch.</li>
+              <li>
+                Integrated Firebase Authencication to sign up, and sign in
+                users.
+              </li>
+              <li>Utilize the use of Firestore to save user credentials.</li>
+              <li>
+                Built a dashboard for user to book meetings with team when
+                they fund a case.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="experience">
+          <div className="resume-list">
             <label className="resume-date">Nov 2019 - Present</label>
             <label className="resume-date">(Part-time)</label>
           </div>
           <div className="resume-lists">
             <label className="FED">
-              Front-end Engineer <span>at Protis Studios (Nigeria)</span>{" "}
+              Front-end Engineer <span className=" text-green-900">- Protis Studios (Nigeria)</span>{" "}
             </label>
             <ul>
               <li>
@@ -62,7 +86,7 @@ function Resume() {
           <div className="resume-lists">
             <label className="FED">
               Front-end Engineer{" "}
-              <span>at Rareket Technology Solution (South Africa)</span>{" "}
+              <span className=" text-green-900">- Rareket Technology Solution (South Africa)</span>{" "}
             </label>
             <ul>
               <li>
@@ -81,7 +105,7 @@ function Resume() {
           </div>
           <div className="resume-lists">
             <label className="FED">
-              Front-end Developer <span>at Redux Protocol (Canada)</span>{" "}
+              Front-end Developer <span className=" text-green-900">- Redux Protocol (Canada)</span>{" "}
             </label>
             <ul>
               <li>
@@ -103,11 +127,10 @@ function Resume() {
           <div className="resume-list">
             <label className="resume-date">Mar, 2015 - October, 2018</label>
           </div>
-          <div className="resume-list">
+          <div className="">
             <label className="FED">
               B.Sc. in Physics{" "}
-              <span>
-                at University of Uyo, <br /> (Akwa-Ibom, Nigeria)
+              <span className=" text-green-900">- University of Uyo, <br /> (Akwa-Ibom, Nigeria)
               </span>
             </label>
           </div>
@@ -116,9 +139,18 @@ function Resume() {
         <h2 className="resume-header">Skills and Tech Stack</h2>
         <div className=" stack">
           <ul>
-            <li><span className="undeline">Programming Languages:</span> Node.js, JavaScript, TypeScript, CSS3, HTML5.</li>
-            <li><span className="undeline">Frameworks:</span> Next.js, React.js, TailwindCSS, Bootstrap, DaisyUI..</li>
-            <li><span className="undeline">Tools:</span> Version Control Systems, Package Managers, Github, Gitlab, Figma, Adobe XD.</li>
+            <li>
+              <span className="undeline">Programming Languages:</span> Node.js,
+              JavaScript, TypeScript, CSS3, HTML5.
+            </li>
+            <li>
+              <span className="undeline">Frameworks:</span> Next.js, React.js,
+              TailwindCSS, Bootstrap, DaisyUI..
+            </li>
+            <li>
+              <span className="undeline">Tools:</span> Version Control Systems,
+              Package Managers, Github, Gitlab, Figma, Adobe XD.
+            </li>
           </ul>
         </div>
 
@@ -128,31 +160,57 @@ function Resume() {
             <li>
               Email:{" "}
               <span>
-                <a href="mailto:ehmaessien@gmail.com" target="_blank" rel="noreferrer">ehmaessien@gmail.com</a>
+                <a
+                  href="mailto:ehmaessien@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  ehmaessien@gmail.com
+                </a>
               </span>
             </li>
             <li>
               Twitter:{" "}
               <span>
-                <a href="https://twitter.com/ehmaessieen" target="_blank" rel="noreferrer">@ehmaessieen</a>
+                <a
+                  href="https://twitter.com/ehmaessieen"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @ehmaessieen
+                </a>
               </span>
             </li>
             <li>
               LinkedIn:{" "}
               <span>
-                <a href="https://linkedin.com/in/ehmaessien" target="_blank" rel="noreferrer">@ehmaessien</a>
+                <a
+                  href="https://linkedin.com/in/ehmaessien"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @ehmaessien
+                </a>
               </span>
             </li>
             <li>
               Github:{" "}
               <span>
-                <a href="https://github.com/ehma90" target="_blank" rel="noreferrer">@ehma90</a>
+                <a
+                  href="https://github.com/ehma90"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @ehma90
+                </a>
               </span>
             </li>
             <li>
               Telegram:{" "}
               <span>
-                <a href="https://t.me/ehma90" target="_blank" rel="noreferrer">@ehma90</a>
+                <a href="https://t.me/ehma90" target="_blank" rel="noreferrer">
+                  @ehma90
+                </a>
               </span>
             </li>
           </ul>
